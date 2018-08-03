@@ -38,3 +38,20 @@ set ruler
 if has('mouse')
     set mouse=a
 endif
+
+" Show tab line only if there are at least two tab pages
+set showtabline=1
+
+" Do not wrap lines
+set nowrap
+
+" <C-L> turn off search highlighting until the next search
+nnoremap <C-L> :nohl<CR><C-L>
+
+" Set up smarter search behaviour
+set incsearch   " Lookahead as search pattern is specified
+set ignorecase  " Ignore case in all searches...
+set smartcase   " ...unless uppercase letters used
+set hlsearch    " Highlight all matches
+                " use <C-L> to temporarily turn off highlighting
+
