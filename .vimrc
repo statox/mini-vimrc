@@ -1,6 +1,3 @@
-" Required, fix lot of stuff
-set nocompatible
-
 " filetype support
 filetype plugin indent on
 syntax on
